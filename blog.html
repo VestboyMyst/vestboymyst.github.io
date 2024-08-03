@@ -7,47 +7,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>chrisfarina.dev</title>
 
+    
     <style type="text/css">
 
-    h1,h2,h3{line-height:1.2}
+        span.icon { font-family: "Segoe UI Emoji"; }
+        h1,h2,h3{line-height:1.2}
+        h1 {text-align:center;}
+        main { padding: 0.5em; }
+        ul { padding-left: 0.5em; }
 
-    html, body { margin: 0; }
-    body{
-        margin:40px auto;
-    max-width:650px;
-    line-height:1.6;
-    font-size:18px;
-    color:#444;
-    padding:0
-    10px
-    }
+        section {
+            padding-top: 0.25em;
+            padding-bottom: 0.25em;
+        }
 
-    body {
-        display: flex;
-        justify-content: center;
-        font-family: sans-serif;
-        overflow-y: scroll;
-    }
+        li {
+            list-style: none;
+            position: relative;
+            left: 0em;
+            margin-bottom: 0.5em;
+        }
 
-    h1 { text-align: center; }
-    main { padding: 0.5em; }
+        html, body { 
+            margin: 0;
+            margin:40px auto;
+            font-size:18px;
+            line-height:1.6;
+            max-width:650px;
+            padding:0
+            10px;
+            display: flex;
+            justify-content: center;
+            font-family: sans-serif;
+            overflow-y: scroll;
+            
+        }
+    
+        body {
+            color: #161616;
+            background:#f1f1f1;
+            }
 
-    section {
-        padding-top: 0.25em;
-        padding-bottom: 0.25em;
-    }
+        a:link {color:#333}
+        a:hover{color:#888}
+        a:visited{color:#666}
+        a:active{color: #eee;}
 
-    ul { padding-left: 0.5em; }
 
-    li {
-        list-style: none;
-        position: relative;
-        left: 0em;
-        margin-bottom: 0.5em;
-    }
+          
+        @media (prefers-color-scheme: dark) {
 
-    span.icon { font-family: "Segoe UI Emoji"; }
+        body {
+            background: #161616;
+            color:#f1f1f1;
+            }
+
+        a:link {color:#dcdcdc}
+        a:hover{color:#999}
+        a:visited{color:#b4b4b4}
+        a:active{color: #333;}
+
+        }
+
+    
+        
+        
+
     </style>
+
 
     
 
@@ -64,15 +91,20 @@
 
 <section>
 
-    
-<li><span class="icon">🏠</span> <a href="https://chrisfarina.dev"><--Back</a></li>
-
-
     <h2>Blog</h2>
     <ul>
 
-    <li><span class="icon">📌</span> <a href="https://chrisfarina.dev/blog/blogpage.html">First entry</a>: Lorem Ipsum Dolor Sit Amat (20XX)</li>
+    <li><span class="icon">🔌</span> <a href="#blogpage.html">Prong</a>: Our creative hardware studio that makes fun products (2021+)</li>
 
+    <li><span class="icon">🏆</span> <a href="https://github.com/openbracketformat/openbracketformat">OBF.json</a>: An open standard for tournament bracket data (2023+)</li>
+
+    <li><span class="icon">💔</span> <a href="https://store.steampowered.com/app/1729160">Heartseeker</a>: A precision clicking platformer game (2021)</li>
+
+    <li><span class="icon">👻</span> <a href="https://www.youtube.com/watch?v=RJ_fQItpCGA">Splook App</a>: Share pop up experiences with friends (2018)</li>
+    </ul>
+
+    <li><span class="icon">🕹️</span> <a href="#">Playtron.gg</a>: Startup that connected offered microsponsorship opportunities to livestreamers (2016)</li>
+    </ul>
 
 </section>
 
