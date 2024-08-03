@@ -5,6 +5,14 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="color-scheme" contents="light dark">
+
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="cyan" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+    
+
+
     <title>chrisfarina.dev</title>
     
     <style type="text/css">
@@ -12,15 +20,13 @@
         span.icon { font-family: "Segoe UI Emoji"; }
         h1,h2,h3{line-height:1.2}
         h1 {text-align:center;}
-
         main { padding: 0.5em; }
+        ul { padding-left: 0.5em; }
 
         section {
             padding-top: 0.25em;
             padding-bottom: 0.25em;
         }
-
-        ul { padding-left: 0.5em; }
 
         li {
             list-style: none;
@@ -43,23 +49,36 @@
             overflow-y: scroll;
             
         }
-        
-        /*
+    
+        body {
+            color: #161616;
+            background:#f1f1f1;
+            }
+
+        a:link {color:#333}
+        a:hover{color:#888}
+        a:visited{color:#666}
+        a:active{color: #eee;}
+
+
+          
         @media (prefers-color-scheme: dark) {
+
         body {
             background: #161616;
             color:#f1f1f1;
             }
-        }
-        */
 
-        @media (prefers-color-scheme: light) {
-        body {
-            background: #f1f1f1;
-            color:#161616;
-            }
+        a:link {color:#dcdcdc}
+        a:hover{color:#999}
+        a:visited{color:#b4b4b4}
+        a:active{color: #333;}
+
         }
 
+    
+        
+        
 
     </style>
 
@@ -69,9 +88,7 @@
 
 <body>
 
-
 <main>
-
 
 <header><h1>Chris Farina</h1></header>
 
@@ -134,7 +151,7 @@
     <li><span class="icon">📖</span> <a href="https://chrisfarina.dev/blog">Blog</a> (chrisfarina.dev/blog)</li>
     -->
 
-    <li><span class="icon">🐦</span> <a href="https://twitter.com/vestboy_mystschemescape">Twitter</a> (@vestboy_myst)</li>
+    <li><span class="icon">🐦</span> <a href="https://twitter.com/vestboy_myst">Twitter</a> (@vestboy_myst)</li>
 
  
 
